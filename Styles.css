@@ -1,0 +1,20 @@
+body, h1, h2, g3, p, ul, li{margin: 2;padding: 4}
+body{ font-family:Arial, sans-serif;color:#000;/*black text color*/background-color:purple;/*purple backgrount color }
+/*  style the header*/
+header{background-color: royalblue;/*royalblue backgound color/*color:yellow;/*yellow text color*/padding: 20px}
+header h1{margin: 0}
+nav ul li {list-style-type: none;}
+nav ul li {display: inline;margin-right: 20px}
+nav ul li a{color: yellow;/*yellow text color for links*/text-decoration: none;}
+/*style the contact section*/#contact{padding: 20px}
+#contact h2{margin-bottom: 10px}
+#contact ul{list-style-type: none;}
+#contact ul li {margin-bottom: 10px}
+#contact ul li strong {color: royalblue;/*royalblue text color*/}
+/* style the footer*/
+footer {background-color: royalblue;/*royalblue background color*/color: yellow;/*yellow text color*/
+	text-align: center;
+	padding: 20px;
+	position: fixed;
+	bottom: 0;
+	width: 100%}  
